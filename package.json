@@ -1,0 +1,24 @@
+{
+  "name": "wn-command-install",
+  "version": "0.0.1",
+  "description": "a component installer for wn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snail-team/wn-command-install.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snail-team/wn-command-install/issues"
+  },
+  "main": "index.js",
+  "author": "snail-team <passtome@foxmail.com>",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require should --reporter spec --timeout 10000"
+  },
+  "dependencies": {
+       "spm":"3.3.4"
+  }
+}
