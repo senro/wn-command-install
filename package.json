@@ -1,6 +1,6 @@
 {
   "name": "wn-command-install",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a component installer for wn",
   "repository": {
     "type": "git",
@@ -18,7 +18,5 @@
   "scripts": {
     "test": "mocha --require should --reporter spec --timeout 10000"
   },
-  "dependencies": {
-       "spm":"3.3.4"
-  }
+  "dependencies": {}
 }
